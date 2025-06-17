@@ -1,0 +1,14 @@
+name: "Deploy codigo"
+
+on:
+    push:
+        branches: ["main"]
+jobs:
+    deploy-codigo:
+        runs-on: ubuntu-latest
+        steps:
+            run: echo "Pull del codigo"
+            run: echo "Run migration"
+            run: echo "Create binary"
+            run: echo "Publicar vrsion"
+
