@@ -7,9 +7,9 @@ jobs:
     deploy-codigo:
         runs-on: ubuntu-latest
         steps:
-            uses: actions/checkout@v4
-            run: echo "Pull del codigo"
-            run: echo "Run migration"
-            run: echo "Create binary"
-            run: echo "Publicar version"
+            - uses: actions/checkout@v4
+            - run: echo "Pull del codigo"
+            - run: echo "Run migration"
+            - run: echo "Create binary"
+            - run: echo "Publicar version"
 
